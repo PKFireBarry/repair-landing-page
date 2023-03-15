@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { PhoneIcon } from '@heroicons/react/24/solid';
+import motion from 'framer-motion';
 import bottom from '../Photos/bottom.jpg';
 
 function ContactUs() {
@@ -51,7 +52,7 @@ function ContactUs() {
       />
   <div class="max-w-md w-full space-y-8">
     <div>
-      <h2 class="mt-6 text-center text-3xl font-extrabold">
+      <h2 class="mb-6 text-center text-3xl font-extrabold">
         Contact Us
       </h2>
       <p>

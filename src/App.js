@@ -7,22 +7,31 @@ import Services from './components/Services';
 import Pricing from './components/Pricing';
 import ContactUs from './components/ContactUs';
 import Review from './components/Review';
+import Footer from './components/Footer';
+import {motion} from 'framer-motion';
 
 
 
 function App() {
   return (
-    <div className="App scroll-smooth">
+    <div className="App scroll-smooth bg-slate-200">
       
       <Header/>
+
       <NavBar className='sticky'/>
+
       <Hero/>
+
       <About/>
+
       <Services/>
-      <Pricing/>
       <Review/>
-      {/*review*/}
+      <Pricing/>
+
+
+
       <ContactUs/>
+      <Footer/>
     </div>
   );
 }
