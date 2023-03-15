@@ -10,8 +10,10 @@ function Hero() {
     <button className='bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded'>Request A Service</button>
   </div>
   <div className='max-w-2xl'>
-    <img src={logo} alt='macbook photo' className='rounded-lg shadow-lg' />
+    <img src={logo} alt='macbook photo' className='rounded-lg shadow-lg border-1 border-black' />
+
     <p className='text-base mt-8'>At Blithe's Computer Repair, we specialize in building custom computers that meet your specific needs. Whether you're a gamer looking for a high-performance machine, or a business owner in need of a reliable computer for your employees, we've got you covered. Our experienced team can build a custom computer that's tailored to your unique needs, ensuring that you get the performance and functionality you need to succeed. Contact us today to request a service!</p>
+
   </div>
 </div>
 

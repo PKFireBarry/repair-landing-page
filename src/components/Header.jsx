@@ -5,7 +5,8 @@ import { BeakerIcon, CubeIcon, PhoneIcon } from '@heroicons/react/24/solid'
 
 function Header() {
   return (
-    <div className='bg-[#004369] h-[30px] w-screen'>
+    <div className='bg-[#004369]  h-[30px] w-screen'>
+      
         
         <div className='flex justify-evenly text-white'>
           <div className='flex'>
