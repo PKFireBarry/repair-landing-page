@@ -26,19 +26,13 @@ function Footer() {
   <div class="flex flex-row justify-between mb-1">
     <div class="text-gray-800 overflow-hidden rounded-lg">
       <p class="font-bold mb-2">Contact</p>
+      <p>Blithe's Computer Repair</p>
+      <p>1234 Main Street</p>
+      <p>City, State 12345</p>
       <p>Phone: 555-555-5555</p>
-      <p>Email:</p>
-      <p>Address:</p>
     </div>
-    <div class="text-gray-800 overflow-hidden rounded-lg">
-      <p class="font-bold mb-2">Hours</p>
-      <p>Monday-Friday: 9am-5pm</p>
-      <p>Saturday: 10am-2pm</p>
-      <p>Sunday: Closed</p>
-    </div>
-  </div>
-
-  <div class="flex flex-row justify-evenly mb-2 m-4">
+    <div>
+        <div class="flex flex-row justify-evenly mb-2 m-4">
     <a href="https://www.facebook.com/" target="_blank" rel="noreferrer">
       <img src="https://img.icons8.com/ios/50/000000/facebook-new.png" alt="Facebook" />
     </a>
@@ -58,6 +52,16 @@ function Footer() {
       <img src="https://img.icons8.com/ios/50/000000/pinterest.png" alt="Pinterest" />
     </a>
   </div>
+    </div>
+    <div class="text-gray-800 overflow-hidden rounded-lg">
+      <p class="font-bold mb-2">Hours</p>
+      <p>Monday-Friday – 11 AM to 7 PM</p>
+      <p>Saturday 12 PM to 4 PM</p>
+      <p>Sunday: Closed</p>
+    </div>
+  </div>
+
+
 
   <div class="flex justify-center border-2 p-2 bg-white border-black rounded-xl">
     <p class="text-gray-800">&copy; 2023 Blithe's Computer Repair</p>

@@ -12,7 +12,7 @@ function Hero() {
       initial={{ opacity: 0, x: '-100vw' }}
       animate={{ opacity: 1 , x: 0 }}
       transition={{ duration: 2 }}
-    className='bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded'>Request A Service</motion.button>
+    className='bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded'>Get a FREE Estimate</motion.button>
   </div>
   <div className='max-w-2xl'>
     <motion.img 

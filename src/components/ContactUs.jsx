@@ -47,25 +47,39 @@ function ContactUs() {
 
   return (
 <div  class="min-h-screen min-w-screen flex flex-col items-center justify-center text-white bg-[#004369] py-12 px-4 sm:px-6 lg:px-8">
-      <div
-        className="w-full h-px px-4 bg-bg-[#004369]"
-      />
-  <div class="max-w-md w-full space-y-8">
+  <div class="w-[75%] space-y-8">
+
     <div>
-      <h2 class="mb-6 text-center text-3xl font-extrabold">
+      <h2 class="mb-6 text-center text-3xl  font-extrabold">
         Contact Us
       </h2>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sagittis
-      </p>
+      Give us a call or fill out the form below to get a fast price estimate on a fix for your device.  If you are not local, we also offer a very streamlined Mail-In Service which makes it very easy to work with us from anywhere in the country.
+      </p>    
+      <button className='py-2 px-2 mt-8 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-green-500 hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-00'>Mail-in Repair Service
+      </button>
+    </div>
+    <div className='flex flex-row justify-center w-full'>
+      <div className='w-1/3 flex pb-6 flex-col pt-6 bg-green-500 h-fit rounded-xl border-b-cyan-200 m-4'>
+        <h1 className='text-3xl font-bold'>Call or visit us</h1>
       <div className='flex justify-center m-4'>
       <PhoneIcon className='w-6 h-6 mr-4'/>
-      <p className='text-xl'>Call Us! 813-123-4567</p>
+      <p className='text-xl'>813-123-4567</p>
+      </div>
+      <div className=''>
+      <p>Hours</p>
+      <p>Monday-Friday – 11 AM to 7 PM</p>
+      <p>Saturday 12 PM to 4 PM</p>
+      <p>Sunday Closed</p>
+      <br/>
+      <p>Address</p>
+      <p>1234 Main Street</p>
+      <p>Tampa, FL 33601</p>        
       </div>
 
-    </div>
-
-
+      
+      </div>
+      <div className='w-2/3'>
     <form class="mt-8 space-y-6" action="#">
       <input type="hidden" name="remember" value="true"/>
       <div class="rounded-md shadow-sm -space-y-px">
@@ -87,12 +101,12 @@ function ContactUs() {
           Send Email
         </button>
       </div>
-    </form>
-  </div>      
-      <div
-        className="w-full h-2/5 bg-[#004369]"
-      >
+    </form>        
       </div>
+    </div>
+
+    
+  </div>      
 </div>
 
   );
