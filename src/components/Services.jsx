@@ -17,7 +17,7 @@ import { motion } from "framer-motion";
 
 function Services() {
   return (
-    <div className="min-h-screen bg-green-500">
+    <div className="bg-green-500">
       <div id="services" className="">
         <h2 className="text-3xl font-extrabold pt-12 pb-6 text-gray-900">
           Our Award-Winning Apple Repair Services
