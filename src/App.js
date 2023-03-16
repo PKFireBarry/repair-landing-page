@@ -10,6 +10,7 @@ import Review from './components/Review';
 import Footer from './components/Footer';
 import {motion} from 'framer-motion';
 import Ethics from './components/Ethics';
+import Faq from './components/Faq';
 
 
 
@@ -26,6 +27,7 @@ function App() {
       <ContactUs/>            
       <Services/>
       <Ethics/>
+      <Faq/>
 
 
 

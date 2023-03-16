@@ -19,8 +19,10 @@ function About() {
     </h2>
     <div className='mt-6 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3'>
       <motion.div
-        initial={{ opacity: 0, y: '-100vh' }}
-        animate={{ opacity: 1, y: 0, transition: { duration: 2 }}}
+
+    initial={{ x:900 , opacity: 0 }}
+    transition={{ duration: .9 }}
+    whileInView={{ opacity: 1, x: 0 }}
       className='bg-white overflow-hidden shadow rounded-lg'>
         <div className='px-4 py-5 sm:p-6'>
           <img
@@ -34,8 +36,9 @@ function About() {
       </motion.div>
 
       <motion.div 
-              initial={{ opacity: 0, y: '-100vh' }}
-        animate={{ opacity: 1, y: 0, transition: { duration: 2.3 }}}
+    initial={{ x:600 , opacity: 0 }}
+    transition={{ duration: 1 }}
+    whileInView={{ opacity: 1, x: 0 }}
       className='bg-white overflow-hidden shadow rounded-lg'>
         <div className='px-4 py-5 sm:p-6'>
           <img
@@ -48,8 +51,10 @@ function About() {
       </motion.div>
 
       <motion.div 
-              initial={{ opacity: 0, y: '-100vh' }}
-        animate={{ opacity: 1, y: 0, transition: { duration: 2.6 }}}
+
+    initial={{ x:500 , opacity: 0 }}
+    transition={{ duration: 1.1 }}
+    whileInView={{ opacity: 1, x: 0 }}
       className='bg-white overflow-hidden shadow rounded-lg'>
         <div className='px-4 py-5 sm:p-6'>
           <img

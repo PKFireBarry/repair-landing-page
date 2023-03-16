@@ -46,8 +46,8 @@ function ContactUs() {
   };
 
   return (
-<div  class="min-h-screen min-w-screen flex flex-col items-center justify-center text-white bg-[#004369] py-12 px-4 sm:px-6 lg:px-8">
-  <div class="w-[75%] space-y-8">
+<div  class="flex flex-col items-center justify-center text-white bg-[#004369] py-12 px-4 sm:px-6 lg:px-8">
+  <div class="w-full space-y-8">
 
     <div>
       <h2 class="mb-6 text-center text-3xl  font-extrabold">
@@ -59,30 +59,29 @@ function ContactUs() {
       <button className='py-2 px-2 mt-8 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-green-500 hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-00'>Mail-in Repair Service
       </button>
     </div>
-    <div className='flex flex-row justify-center w-full'>
-      <div className='w-1/3 flex pb-6 flex-col pt-6 bg-green-500 h-fit rounded-xl border-b-cyan-200 m-4'>
-        <h1 className='text-3xl font-bold'>Call or visit us</h1>
+    <div className='flex justify-center w-full bg-slate-100 rounded-xl'>
+      <div className='w-full flex pb-6 flex-col pt-6 items-center justify-center text-white bg-[#004369] py-12 px-4 sm:px-6 lg:px-8">
+ h-fit  border-b-cyan-200 m-4'>
+        <h1 className='text-3xl capitalize font-bold'>Call Or Visit Us</h1>
       <div className='flex justify-center m-4'>
       <PhoneIcon className='w-6 h-6 mr-4'/>
       <p className='text-xl'>813-123-4567</p>
       </div>
       <div className=''>
-      <p>Hours</p>
+      <p className='font-bold underline'>Hours</p>
       <p>Monday-Friday – 11 AM to 7 PM</p>
       <p>Saturday 12 PM to 4 PM</p>
       <p>Sunday Closed</p>
       <br/>
-      <p>Address</p>
+      <p className='font-bold underline'>Address</p>
       <p>1234 Main Street</p>
       <p>Tampa, FL 33601</p>        
       </div>
-
-      
       </div>
       <div className='w-2/3'>
-    <form class="mt-8 space-y-6" action="#">
+    <form class="mt-8" action="#">
       <input type="hidden" name="remember" value="true"/>
-      <div class="rounded-md shadow-sm -space-y-px">
+      <div class="rounded-md shadow-sm -space-y-px mr-4">
         <div>
           <label for="email" class="sr-only">Email</label>
           <input id="email" name="email" type="email" autocomplete="email" required class="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-t-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm" placeholder="Email"/>
@@ -96,7 +95,7 @@ function ContactUs() {
           <textarea id="message" name="message" rows="4" class="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm" placeholder="Message"></textarea>
         </div>
       </div>
-      <div class="flex items-center justify-end mt-4">
+      <div class="flex items-center justify-end mt-4 mr-4">
         <button type="submit" class="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-green-500 hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-00">
           Send Email
         </button>
