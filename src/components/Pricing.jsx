@@ -10,7 +10,7 @@ function Pricing() {
           <div className="max-w-2xl mx-auto ">
           <h1 className='text-3xl font-extrabold py-16 pb-8'>We Can Fix Your Problem</h1>
     <p className='pb-8'>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sagittis
+      There’s an informative, no-nonsense approach that’s unique here. Rossmann’s was built to provide the best experience by focusing on your expectations before our comfort & convenience. We encourage you to shop around; the Rossmann difference is most easily noticed by those who have been somewhere else first!
     </p>
     <div class="flex justify-cente flex-col flex-grow sm:flex-col md:flex-row lg:flex-row xl:flex-row py-4">
 

@@ -32,7 +32,7 @@ function Services() {
           initial={{ x: -200, opacity: 0 }}
           transition={{ duration: 2, stiffness: 15, type: "spring" }}
           whileInView={{ opacity: 1, x: 0, scale: 1 }}
-          className="bg-white overflow-hidden shadow rounded-lg"
+          className="bg-slate-100 hover:bg-slate-300 ease-in-out overflow-hidden shadow rounded-lg"
         >
           <img src={phone} alt="" className="object-cover  resize" />
           <div className="px-4  py-5 sm:p-6">
@@ -54,7 +54,7 @@ function Services() {
           initial={{ x: -200, opacity: 0 }}
           transition={{ duration: 2.1, stiffness: 15, type: "spring" }}
           whileInView={{ opacity: 1, x: 0 }}
-          className="bg-white overflow-hidden shadow rounded-lg"
+          className="bg-white hover:bg-slate-300 overflow-hidden shadow rounded-lg"
         >
           <img src={bottom} alt="" className="object-cover  resize" />
           <div className="px-4 py-5 sm:p-6">
@@ -76,7 +76,7 @@ function Services() {
           initial={{ x: -200, opacity: 0 }}
           transition={{ duration: 2.3, stiffness: 15, type: "spring" }}
           whileInView={{ opacity: 1, x: 0 }}
-          className="bg-white overflow-hidden shadow rounded-lg"
+          className="bg-white hover:bg-slate-300  overflow-hidden shadow rounded-lg"
         >
           <img src={networking} alt="" className="object-cover resize" />
           <div className="px-4 py-5 sm:p-6">
@@ -97,7 +97,7 @@ function Services() {
           initial={{ x: -200, opacity: 0 }}
           transition={{ duration: 2.5, stiffness: 15, type: "spring" }}
           whileInView={{ opacity: 1, x: 0 }}
-          className="bg-white overflow-hidden shadow rounded-lg"
+          className="bg-white hover:bg-slate-300  overflow-hidden shadow rounded-lg"
         >
           <img src={data} alt="" className="object-cover resize" />
           <div className="px-4 py-5 sm:p-6">
@@ -119,7 +119,7 @@ function Services() {
           initial={{ x: -200, opacity: 0 }}
           transition={{ duration: 2.5, stiffness: 15, type: "spring" }}
           whileInView={{ opacity: 1, x: 0 }}
-          className="bg-white overflow-hidden shadow rounded-lg"
+          className="bg-white hover:bg-slate-300  overflow-hidden shadow rounded-lg"
         >
           <img src={splash} alt="" className="object-cover resize" />
           <div className="px-4 py-5 sm:p-6">
@@ -141,7 +141,7 @@ function Services() {
           initial={{ x: -200, opacity: 0 }}
           transition={{ duration: 2.7, stiffness: 15, type: "spring" }}
           whileInView={{ opacity: 1, x: 0 }}
-          className="bg-white overflow-hidden shadow rounded-lg"
+          className="bg-white hover:bg-slate-300  overflow-hidden shadow rounded-lg"
         >
           <img src={iphone} alt="" className="object-cover resize" />
           <div className="px-4 py-5 sm:p-6">
@@ -163,7 +163,7 @@ function Services() {
           initial={{ x: -200, opacity: 0 }}
           transition={{ duration: 2.9, stiffness: 15, type: "spring" }}
           whileInView={{ opacity: 1, x: 0 }}
-          className="bg-white overflow-hidden shadow rounded-lg"
+          className="bg-white hover:bg-slate-300  overflow-hidden shadow rounded-lg"
         >
           <img src={evaluation} alt="" className="object-cover resize" />
           <div className="px-4 py-5 sm:p-6">
