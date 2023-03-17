@@ -18,8 +18,8 @@ function App() {
   return (
     <div className="App scroll-smooth bg-slate-200">
       
-      <Header/>
-      <NavBar className='sticky'/>
+
+      <NavBar/>
       <Hero/>
       <About/>
       <Pricing/>
@@ -34,7 +34,7 @@ function App() {
 
 
       <Footer/>
-    </div>
+   </div>
   );
 }
 

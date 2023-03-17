@@ -1,21 +1,21 @@
 import React from 'react'
 import logo from '../Photos/amd-motherboard.jpeg'
+import Header from './Header'
 
 function NavBar() {
   return (
+    <div className='top-0 fixed'>
+        <Header />
     <div className='bg-[#004369] flex justify-evenly text-white'>
-        <img
-        src={logo}
-        alt=''
-        className='h-[50px]'
-        />
         <a  className='pt-2 hover:underline' href='/'>Home</a>
         <a className='pt-2 hover:underline' href='#about'>About Us</a>
         <a className='pt-2 hover:underline' href='#services'>Sevices</a>
         <a className='pt-2 hover:underline' href='#pricing'>Pricing</a>
         <a className='pt-2 hover:underline' href='#reviews'>Reviews</a>
-        <button className='bg-[#87ACA3] p-1 h-[35px] rounded-lg hover:bg-[#0C1446]'>Contact Us</button>
+        <a href='#contact' className='bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded'>Contact Us</a>
+    </div>            
     </div>
+
   )
 }
 

@@ -11,12 +11,12 @@ function Hero() {
   <div className='max-w-2xl mx-8 mb-4'>
     <h1 className='font-bold text-4xl mb-4'>Blithe's Computer Repair</h1>
     <p className='text-lg text-gray-600 mb-8'>We build custom computers for any need, from gaming to business.</p>
-    <motion.button
+    <motion.a
     initial={{ x:-250 , opacity: 0 }}
     transition={{ duration: 1.4 }}
     whileInView={{ opacity: 1, x: 0 }}
-
-    className='bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded'>Get a FREE Estimate</motion.button>
+    href='#contact'
+    className='bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded'>Get a FREE Estimate</motion.a>
   </div>
   <div className='max-w-2xl'>
     <motion.img 

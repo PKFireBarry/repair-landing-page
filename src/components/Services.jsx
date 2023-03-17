@@ -22,7 +22,7 @@ function Services() {
         <h2 className="text-3xl font-extrabold pt-12 pb-6 text-gray-900">
           Our Award-Winning Apple Repair Services
         </h2>
-        <p className="text-base font-semibold leading-7 p-4">
+        <p className="text-base leading-7 p-4">
           Check out the premier services. We repair and recover your Apple
           products including iPhones, iPads, MacBooks and more!
         </p>

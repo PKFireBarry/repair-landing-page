@@ -63,7 +63,7 @@ function Faq() {
       </div>
 
       <div className="m-4 pb-1">
-        <p>
+        <p className="text-base font-semibold leading-7 p-4">
           For our location, come by between 11 AM to 7 PM on weekdays or 12 PM
           to 4 PM on weekends for a free consultation. We will diagnose the
           issue with your machine and give you all of your options.If you don’t
@@ -170,7 +170,7 @@ function Faq() {
           <summary>
             But doesn’t Apple rigorously test those parts to ensure quality?
           </summary>
-          <p className="pt-4">
+          <p className="text-base font-semibold leading-7 p-4">
             No. Are you curious as to what “Apple Authorized” means? One might
             assume this makes it a better part, but they’re the same parts we
             purchase. As one can see from forums such as macrumors, Apple has no
