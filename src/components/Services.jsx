@@ -4,7 +4,7 @@ import {
   GlobeAmericasIcon,
   UserGroupIcon,
   ShieldExclamationIcon,
-  ArchiveBoxXMarkIcon,
+  ArchiveBoxXMarkIcon,ArrowPathRoundedSquareIcon, PaperClipIcon, XCircleIcon
 } from "@heroicons/react/24/solid";
 import bottom from "../Photos/bottom.jpg";
 import networking from "../Photos/networking.jpg";
@@ -124,7 +124,7 @@ function Services() {
           <img src={splash} alt="" className="object-cover resize" />
           <div className="px-4 py-5 sm:p-6">
             <div className="flex flex-col justify-evenly">
-              <ArchiveBoxXMarkIcon className="w-12 h-12" />
+              <XCircleIcon className="w-12 h-12" />
               <h3 className="text-2xl leading-6 font-medium text-gray-900 ">
                 Liquid Spill Repair
               </h3>
@@ -146,7 +146,7 @@ function Services() {
           <img src={iphone} alt="" className="object-cover resize" />
           <div className="px-4 py-5 sm:p-6">
             <div className="flex flex-col justify-evenly">
-              <ArchiveBoxXMarkIcon className="w-12 h-12" />
+              <ArrowPathRoundedSquareIcon className="w-12 h-12" />
               <h3 className="text-2xl leading-6 font-medium text-gray-900 ">
                 Iphone Data Recovery
               </h3>
@@ -168,7 +168,7 @@ function Services() {
           <img src={evaluation} alt="" className="object-cover resize" />
           <div className="px-4 py-5 sm:p-6">
             <div className="flex flex-col justify-evenly">
-              <ArchiveBoxXMarkIcon className="w-12 h-12" />
+              <PaperClipIcon className="w-12 h-12" />
               <h3 className="text-2xl leading-6 font-medium text-gray-900 ">
                 Free Evaluation
               </h3>

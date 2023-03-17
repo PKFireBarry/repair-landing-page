@@ -59,9 +59,8 @@ function ContactUs() {
       <button className='py-2 px-2 mt-8 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-green-500 hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-00'>Mail-in Repair Service
       </button>
     </div>
-    <div className='flex justify-center w-full bg-slate-100 rounded-xl'>
-      <div className='w-full flex pb-6 flex-col pt-6 items-center justify-center text-white bg-[#004369] py-12 px-4 sm:px-6 lg:px-8">
- h-fit  border-b-cyan-200 m-4'>
+    <div className='flex flex-col items-center justify-center bg-slate-100 md:flex-row'>
+      <div className='w-full flex pb-6 flex-col pt-6 items-center justify-center text-white bg-[#004369] py-12'>
         <h1 className='text-3xl capitalize font-bold'>Call Or Visit Us</h1>
       <div className='flex justify-center m-4'>
       <PhoneIcon className='w-6 h-6 mr-4'/>
@@ -78,29 +77,39 @@ function ContactUs() {
       <p>Tampa, FL 33601</p>        
       </div>
       </div>
-      <div className='w-2/3'>
-    <form class="mt-8" action="#">
-      <input type="hidden" name="remember" value="true"/>
-      <div class="rounded-md shadow-sm -space-y-px mr-4">
-        <div>
-          <label for="email" class="sr-only">Email</label>
-          <input id="email" name="email" type="email" autocomplete="email" required class="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-t-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm" placeholder="Email"/>
-        </div>
-        <div>
-          <label for="subject" class="sr-only">Subject</label>
-          <input id="subject" name="subject" type="text" autocomplete="subject" required class="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm" placeholder="Subject"/>
-        </div>
-        <div>
-          <label for="message" class="sr-only">Message</label>
-          <textarea id="message" name="message" rows="4" class="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm" placeholder="Message"></textarea>
-        </div>
+      <div className='w-2/3 '>
+      <form class="w-full max-w-lg mx-auto" action="#">
+  <div class="shadow-md overflow-hidden rounded-2xl">
+    <div class="py-4 px-6  rounded">
+      <h2 class="text-lg font-medium text-gray-700">Let us know how we can help you.</h2>
+
+    </div>
+    <div class="bg-white px-6 py-4">
+      <div class="mb-4">
+        <label for="name" class="block text-gray-700 font-medium mb-2">Your Name</label>
+        <input id="name" name="name" type="text" autocomplete="name" required class="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-t-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm" placeholder="John Doe"/>
       </div>
-      <div class="flex items-center justify-end mt-4 mr-4">
-        <button type="submit" class="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-green-500 hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-00">
-          Send Email
-        </button>
+      <div class="mb-4">
+        <label for="email" class="block text-gray-700 font-medium mb-2">Email</label>
+        <input id="email" name="email" type="email" autocomplete="email" required class="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm" placeholder="you@example.com"/>
       </div>
-    </form>        
+      <div class="mb-4">
+        <label for="phone" class="block text-gray-700 font-medium mb-2">Phone Number</label>
+        <input id="phone" name="phone" type="tel" autocomplete="tel" required class="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm" placeholder="555-555-5555"/>
+      </div>
+      <div class="mb-4">
+        <label for="message" class="block text-gray-700 font-medium mb-2">Message</label>
+        <textarea id="message" name="message" rows="4" class="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm" placeholder="How can we help you?"></textarea>
+      </div>
+    </div>
+    <div class="bg-gray-100 py-4 px-6 flex justify-end">
+      <button type="submit" class="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-green-500 hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500">
+        Send Message
+      </button>
+    </div>
+  </div>
+</form>
+      
       </div>
     </div>
 

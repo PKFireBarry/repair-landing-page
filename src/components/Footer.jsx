@@ -32,7 +32,7 @@ function Footer() {
       <p>Phone: 555-555-5555</p>
     </div>
     <div>
-        <div class="flex flex-row justify-evenly mb-2 m-4">
+        <div class="flex flex-col md:flex-row opacity-0 md:opacity-100 justify-evenly mb-2 m-4">
     <a href="https://www.facebook.com/" target="_blank" rel="noreferrer">
       <img src="https://img.icons8.com/ios/50/000000/facebook-new.png" alt="Facebook" />
     </a>

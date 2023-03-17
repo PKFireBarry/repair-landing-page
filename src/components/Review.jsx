@@ -52,7 +52,7 @@ function review() {
           </dl>
         </div>
       </div>
-    <div className='my-4 pt-8  '>
+    <div className='my-4 pt-8 text-black '>
       <p>
       Funny thing about good service, there’s no “oh, please leave us a review!!” or “hey, we’ll give you TEN PERCENT OFF if you write a review RIGHT NOW!!!” nonsense. We don’t need it. We get plenty of reviews from happy customers. We just want to make sure you know that we’re not just saying we’re good, we’re actually good.
       </p>

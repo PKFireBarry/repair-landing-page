@@ -1,6 +1,7 @@
 import React from "react";
 import shipping from '../Photos/shipping.jpg'
 import store from '../Photos/store.jpg'
+import { motion } from 'framer-motion'
 
 function Faq() {
   return (
@@ -9,10 +10,10 @@ function Faq() {
       <p className="text-xl font-extrabold">How does this work?</p>
       <div>
         <h1 className='text-base font-semibold leading-7 '>There are two ways for us to service your device:</h1>
-        <div className="flex flex-col p-20">
+        <div className="flex flex-col p-8">
           <div>
-            <div className="flex flex-row">
-              <div className="w-1/2 p-4">
+            <div className="flex flex-col md:flex-row">
+              <div className="w-full md:w-1/2 p-4">
                 <h1 className="text-2xl font-extrabold" >Mail it to our store.</h1>
                 <p>
                   Fill out the form on our mail in page, and follow the
@@ -25,8 +26,12 @@ function Faq() {
                 </p>
                 <button className='bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded'>Learn More</button>
               </div>
-              <div className="w-1/2">
-                <img
+              <div className="w-full md:w-1/2 p-4">
+                <motion.img
+
+                    initial={{ x:300 , opacity: 0}}
+                    transition={{ duration: .7 }}
+                    whileInView={{ opacity: 1, x: 0}}
                     src={shipping}
                     className='rounded-lg'
                 />
@@ -34,14 +39,18 @@ function Faq() {
             </div>
           </div> 
           <div>
-            <div className="flex flex-row">
-              <div className="w-1/2">
-                <img
+            <div className="flex flex-col md:flex-row">
+              <div className="w-full md:w-1/2 p-4">
+                <motion.img
+
+                    initial={{ y:300 , opacity: 0}}
+                    transition={{ duration: .5 }}
+                    whileInView={{ opacity: 1, y: 0}}
                     src={store}
                     className='rounded-lg'
                 />
               </div>
-              <div className="w-1/2 mt-12 p-4">
+              <div className="w-full md:w-1/2 p-4">
                 <h1 className="text-2xl font-extrabold">Bring it to our store.</h1>
                 <p>
                 Walk into our store and we will fix your device for you. We will provide you with a free repair estimate so you know what the cost of fixing your device is – before we work on it.

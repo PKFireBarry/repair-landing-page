@@ -20,7 +20,7 @@ function About() {
     <div className='mt-6 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3'>
       <motion.div
 
-    initial={{ x:900 , opacity: 0 }}
+    initial={{ x:200 , opacity: 0 }}
     transition={{ duration: .9 }}
     whileInView={{ opacity: 1, x: 0 }}
       className='bg-white overflow-hidden shadow rounded-lg'>
@@ -36,7 +36,7 @@ function About() {
       </motion.div>
 
       <motion.div 
-    initial={{ x:600 , opacity: 0 }}
+    initial={{ x:200 , opacity: 0 }}
     transition={{ duration: 1 }}
     whileInView={{ opacity: 1, x: 0 }}
       className='bg-white overflow-hidden shadow rounded-lg'>
@@ -52,7 +52,7 @@ function About() {
 
       <motion.div 
 
-    initial={{ x:500 , opacity: 0 }}
+    initial={{ x:200 , opacity: 0 }}
     transition={{ duration: 1.1 }}
     whileInView={{ opacity: 1, x: 0 }}
       className='bg-white overflow-hidden shadow rounded-lg'>

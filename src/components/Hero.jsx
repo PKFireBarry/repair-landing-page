@@ -7,8 +7,8 @@ function Hero() {
 
   
   return (
-<div className='flex h-screen flex-row justify-center items-center bg-slate-200'>
-  <div className='max-w-2xl mx-8 pb-20'>
+<div className='flex h-screen w-full flex-col md:flex-row justify-center items-center bg-slate-200 m-4'>
+  <div className='max-w-2xl mx-8 mb-4'>
     <h1 className='font-bold text-4xl mb-4'>Blithe's Computer Repair</h1>
     <p className='text-lg text-gray-600 mb-8'>We build custom computers for any need, from gaming to business.</p>
     <motion.button
