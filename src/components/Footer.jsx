@@ -10,7 +10,7 @@ function Footer() {
     <a href="#services" class="text-gray-800 hover:text-gray-600 transition-colors duration-300">
       Services
     </a>
-    <a href="#contract" class="text-gray-800 hover:text-gray-600 transition-colors duration-300">
+    <a href="#contact" class="text-gray-800 hover:text-gray-600 transition-colors duration-300">
       Contact
     </a>
     <a href="#reviews" class="text-gray-800 hover:text-gray-600 transition-colors duration-300">
