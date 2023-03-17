@@ -1,6 +1,6 @@
 import React from 'react'
 import logo from '../Photos/macbook-open.jpeg'
-import { motion, useInView } from "framer-motion";
+import { motion } from "framer-motion";
 
 
 function Hero() {

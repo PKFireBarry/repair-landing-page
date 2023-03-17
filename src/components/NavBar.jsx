@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../Photos/amd-motherboard.jpeg'
+
 import Header from './Header'
 
 function NavBar() {

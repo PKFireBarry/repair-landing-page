@@ -1,5 +1,4 @@
 import React from 'react'
-import recovery from '../Photos/data-recovery.jpeg'
 import {UserCircleIcon } from '@heroicons/react/24/outline'
 
 

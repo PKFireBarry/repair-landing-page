@@ -1,5 +1,5 @@
 import React from 'react'
-import custom from '../Photos/custom-builds.jpeg'
+
 import { motion } from 'framer-motion'
 
 function Pricing() {
