@@ -7,9 +7,9 @@ function Hero() {
 
   
   return (
-<div className='flex h-screen w-full flex-col md:flex-row justify-center items-center bg-slate-200 m-4'>
-  <div className='max-w-2xl mx-8 mb-4'>
-    <h1 className='font-bold text-4xl mb-4'>Blithe's Computer Repair</h1>
+<div className='flex flex-col items-center justify-center h-screen bg-slate-200 m-4'>
+  <div className='max-w-2xl mx-8 mb-4 text-center'>
+    <h1 className='font-bold text-4xl mb-4 mt-32'>Blithe's Computer Repair</h1>
     <p className='text-lg text-gray-600 mb-8'>We build custom computers for any need, from gaming to business.</p>
     <motion.a
     initial={{ x:-250 , opacity: 0 }}
@@ -25,7 +25,7 @@ function Hero() {
     transition={{ duration: 1.5 }}
     whileInView={{ opacity: 1, x: 0 }}
 
-    src={logo} alt='macbook photo' className='rounded-lg shadow-lg border-1 border-black' />
+    src={logo} alt='macbook photo' className='hidden sm:block rounded-lg shadow-lg border-1 border-black mx-auto' />
 
     <motion.p
     viewport={{ once: true }}

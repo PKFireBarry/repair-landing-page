@@ -19,7 +19,7 @@ function App() {
     <div className="App bg-slate-200 snap-y snap-mandatory overflow-x-hidden scroll-smooth">
       
 
-      <NavBar/>
+      <NavBar className=''/>
       <Hero className='snap-center '/>
       <About className='snap-center '/>
       <Pricing className='snap-center '/>

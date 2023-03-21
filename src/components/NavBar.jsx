@@ -12,7 +12,7 @@ function NavBar() {
         <a className='font-bold pt-2 hover:underline' href='#services'>Sevices</a>
         <a className='font-bold pt-2 hover:underline' href='#pricing'>Pricing</a>
         <a className='font-bold pt-2 hover:underline' href='#reviews'>Reviews</a>
-        <a href='#contact' className='bg-green-500 hover:bg-green-600 text-white m-1 font-bold py-2 px-4 rounded'>Contact Us</a>
+        <a href='#contact' className='bg-green-500 hover:bg-green-600 text-white m-1 font-bold py-2 px-2 rounded'>Contact Us</a>
     </div>            
     </div>
 

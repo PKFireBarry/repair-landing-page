@@ -14,7 +14,7 @@ function Header() {
           <a href='/'>Blithe's Computer Repair</a>            
           </div>
 
-          <div className='flex'>
+          <div className='hidden md:flex'>
           <PhoneIcon className='w-5 h-5 mx-2'/>
           <p className=''>813-123-4567</p>               
           </div>
