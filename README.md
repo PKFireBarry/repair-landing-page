@@ -1,31 +1,11 @@
 # Repair Landing Page
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+https://repair-landing-page.vercel.app/
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Local Setup
+1. clone or fork the repo onto your computer
+2. download and install the latest version of node.js(https://nodejs.org/en/) for your Operating System
+3. using your Command Line navigate to the folder where the files are saved
+4. run 'npm i' to install all the dependencies
+5. next run 'npm run dev' to start the server on localhost:3000
 
